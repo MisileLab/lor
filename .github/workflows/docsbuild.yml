@@ -15,7 +15,7 @@ jobs:
         with:
           mdbook-version: "latest"
 
-      - run: cd web && mdbook build
+      - run: cd web && mdbook build && cd -
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.0
