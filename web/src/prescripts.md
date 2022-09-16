@@ -1,6 +1,6 @@
 # Prescripts
 
-## Prescript 1 - Minecraft Forge Downloader
+## Prescript 1 - Minecraft Forge Downloader - Succeed
 Minecraft forge downloader
 
 ## Prescript 2 - Minecraft Fabric Downloader
