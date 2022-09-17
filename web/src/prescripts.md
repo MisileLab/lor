@@ -8,3 +8,7 @@ Minecraft Fabric downloader
 
 ## Prescript 3 - Minecraft Quilt Downloader
 Minecraft Quilt downloader
+
+## Prescript 4 - [Encrypted Message]
+Encrypted Message
+
