@@ -3,7 +3,7 @@
 ## Prescript 1 - Minecraft Forge Downloader - Succeed
 Minecraft forge downloader
 
-## Prescript 2 - Minecraft Fabric Downloader
+## Prescript 2 - Minecraft Fabric Downloader - Succeed
 Minecraft Fabric downloader
 
 ## Prescript 3 - Minecraft Quilt Downloader

@@ -4,7 +4,6 @@ from simple_term_menu import TerminalMenu
 from os.path import isfile
 
 def main():
-    # https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.25/forge-1.19.2-43.1.25-installer.jar
     options = {}
     for i, i2 in get("https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json").json()["promos"].items():
         if i.endswith("latest"):
