@@ -1,14 +1,11 @@
 # Prescripts
 
-## Prescript 1 - Minecraft Forge Downloader - Succeed
-Minecraft forge downloader
+## Prescript 1 - Minecraft Mod Loader Installer - Partially Succeed
+Minecraft forge/fabric/quilt downloader
 
-## Prescript 2 - Minecraft Fabric Downloader - Succeed
-Minecraft Fabric downloader
+## Prescript 2 - Minecraft Server Installer
+Minecraft paper/purpur downloader
 
-## Prescript 3 - Minecraft Quilt Downloader
-Minecraft Quilt downloader
-
-## Prescript 4 - [Encrypted Message]
+## Prescript 3 - [Encrypted Message]
 Encrypted Message
 
