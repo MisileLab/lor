@@ -1,6 +1,6 @@
 # Prescripts
 
-## Prescript 1 - Minecraft Mod Loader Installer - Partially Succeed
+## Prescript 1 - Minecraft Mod Loader Installer - Succeed
 Minecraft forge/fabric/quilt downloader
 
 ## Prescript 2 - Minecraft Server Installer
