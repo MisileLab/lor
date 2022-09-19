@@ -6,6 +6,6 @@ Minecraft forge/fabric/quilt downloader
 ## Prescript 2 - Minecraft Server Installer
 Minecraft paper/purpur downloader
 
-## Prescript 3 - [Encrypted Message]
-Encrypted Message
+## Prescript 3 - Minecraft Library Downloader
+Minecraft Library Downloader
 
