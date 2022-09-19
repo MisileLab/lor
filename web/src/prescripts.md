@@ -4,7 +4,7 @@
 Minecraft forge/fabric/quilt downloader
 
 ## Prescript 2 - Minecraft Server Installer
-Minecraft paper/purpur downloader
+Minecraft paper/purpur/velocity downloader
 
 ## Prescript 3 - Minecraft Library Downloader
 Minecraft Library Downloader
