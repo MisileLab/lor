@@ -80,7 +80,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "simple-term-menu"
-version = "1.5.0"
+version = "1.5.1"
 description = "A Python package which creates simple interactive menus on the command line."
 category = "dev"
 optional = false
@@ -110,7 +110,7 @@ python-versions = ">=3.4"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.10.7"
-content-hash = "c7b359114ae5e4017df49877160d21d6eacda56a50fee92fe7f9e8247ab639ec"
+content-hash = "14b27e8064b34e5d8122c5608223c9054ec68892cbeae1ba741f7069911ea89b"
 
 [metadata.files]
 certifi = [
@@ -243,8 +243,8 @@ requests = [
     {file = "requests-2.28.1.tar.gz", hash = "sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983"},
 ]
 simple-term-menu = [
-    {file = "simple-term-menu-1.5.0.tar.gz", hash = "sha256:bd019c4e2e54ac9a6d1abef32910b45f72257519736497a5a7975aca3c406554"},
-    {file = "simple_term_menu-1.5.0-py3-none-any.whl", hash = "sha256:3b8b1b155716c2490547836893ad480126cfc2bc84303eae5e22a7b65b746b40"},
+    {file = "simple-term-menu-1.5.1.tar.gz", hash = "sha256:ed09b261e427f3158584de87964d70aaf26b9528f8a04176e884c8d071a80d98"},
+    {file = "simple_term_menu-1.5.1-py3-none-any.whl", hash = "sha256:30af4e3cc2db0187c1ac043f9dd61e338e17db62895c4a43a1659eaa747d6198"},
 ]
 urllib3 = [
     {file = "urllib3-1.26.12-py2.py3-none-any.whl", hash = "sha256:b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997"},
