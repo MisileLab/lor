@@ -12,8 +12,6 @@ def main():
     terminal_menu.show()
     menu_entry = terminal_menu.chosen_menu_entry
     with get(f"https://maven.minecraftforge.net/net/minecraftforge/forge/{menu_entry}-{options[menu_entry]}/forge-{menu_entry}-{options[menu_entry]}-installer.jar") as a: # type: ignore
-        print(a.url)
-        print(a.status_code)
         if isfile("forge.jar"):
             remove("forge.jar")
         with open("forge.jar", "wb") as f:
