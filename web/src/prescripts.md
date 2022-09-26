@@ -6,3 +6,6 @@ Minecraft forge/fabric/quilt downloader
 ## Prescript 2 - Minecraft Server Installer - Succeed
 Minecraft paper/purpur downloader
 
+## Prescript 3 - [Encrypted] - Succeed
+[09/27](https://www.acmicpc.net/user/misile)
+
