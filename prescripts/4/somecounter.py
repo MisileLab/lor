@@ -1,9 +1,7 @@
 from microbit import *
+from library import *
 
 a = 0
-
-def button_one_time_pressed(button: Button):
-    return button.is_pressed() and button.was_pressed()
 
 while True:
     display.show(a)
