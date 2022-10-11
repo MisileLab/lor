@@ -15,7 +15,7 @@ optional = false
 python-versions = ">=3.6.0"
 
 [package.extras]
-unicode_backport = ["unicodedata2"]
+unicode-backport = ["unicodedata2"]
 
 [[package]]
 name = "idna"
@@ -41,11 +41,11 @@ urllib3 = ">=1.21.1,<1.27"
 
 [package.extras]
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
-use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
+use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "simple-term-menu"
-version = "1.5.1"
+version = "1.5.2"
 description = "A Python package which creates simple interactive menus on the command line."
 category = "main"
 optional = false
@@ -67,7 +67,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "3.10.7"
-content-hash = "1b4597612ca5fdc15f4094f0bc4788ca618aad78e016b27ff4b14573fad3ba97"
+content-hash = "0b9e5895c42741c9b8db141cd4f77c011c4e653c957a5e00a5cad3189e918b90"
 
 [metadata.files]
 certifi = [
@@ -87,8 +87,8 @@ requests = [
     {file = "requests-2.28.1.tar.gz", hash = "sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983"},
 ]
 simple-term-menu = [
-    {file = "simple-term-menu-1.5.1.tar.gz", hash = "sha256:ed09b261e427f3158584de87964d70aaf26b9528f8a04176e884c8d071a80d98"},
-    {file = "simple_term_menu-1.5.1-py3-none-any.whl", hash = "sha256:30af4e3cc2db0187c1ac043f9dd61e338e17db62895c4a43a1659eaa747d6198"},
+    {file = "simple-term-menu-1.5.2.tar.gz", hash = "sha256:9fa5d29746054f1096d0cd6fcbd711bd0f4e0986c4dba6a7c119fa216c374a62"},
+    {file = "simple_term_menu-1.5.2-py3-none-any.whl", hash = "sha256:26245d9874f3a264cec72e329ac96fd55f1846bbd204e4b596d02ef7aff848fb"},
 ]
 urllib3 = [
     {file = "urllib3-1.26.12-py2.py3-none-any.whl", hash = "sha256:b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997"},
