@@ -12,6 +12,3 @@ Minecraft paper/purpur downloader
 ## Prescript 4 - Make some program - Continue
 ..that use real machine.
 
-## Prescript 5 - Some(problems)
-not yet clip
-
