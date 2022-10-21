@@ -3,6 +3,8 @@ from library import *
 
 l = 0
 
+display.show(0)
+
 while True:
     if button_one_time_pressed(button_a):
         l += -1
@@ -13,3 +15,4 @@ while True:
     if button_one_time_pressed(button_b):
         l += 1
         display.show(l)
+        
