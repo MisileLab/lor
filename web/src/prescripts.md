@@ -14,3 +14,6 @@ Minecraft paper/purpur downloader
 
 ## Prescript 5 - Some problems - Continue
 
+## Prescript 6 - Minecraft plugin idea from doxa97
+Show my hp and experience bar (it's already show?), when see other player, show other player's hp and 9,10,11,12 in other player's inventory (it will need plugin lol)
+
