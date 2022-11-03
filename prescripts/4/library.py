@@ -30,7 +30,7 @@ class Sprite:
         ]
         self.listlol[y+2][x] = "9"
 
-    def add(self, x: int = None, y: int = None):
+    def add(self, x: int = 0, y: int = 0):
         x = self.prevx + x
         y = self.prevy + y
         self.listlol[self.prevy+2][self.prevx] = "0"
@@ -38,15 +38,9 @@ class Sprite:
         self.prevx = x
         self.prevy = y
 
-    def substract(self, x: int = None, y: int = None):
-        if x is not None:
-            x = self.prevx - x
-        else:
-            x = self.prevx
-        if y is not None:
-            y = self.prevy - y
-        else:
-            y = self.prevy
+    def substract(self, x: int = 0, y: int = 0):
+        x = self.prevx - x
+        y = self.prevy - y
         self.listlol[self.prevy+2][self.prevx] = "0"
         self.listlol[y+2]
 
