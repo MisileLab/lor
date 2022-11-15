@@ -1,14 +1,17 @@
-from tomli import loads
 from json import loads as jload
+from os import getcwd, listdir
 from subprocess import Popen
-from os import listdir, getcwd
+from modules.library import get_input_and_output
+
+from tomli import loads
+
 
 def read_once(path: str):
     """Read a file once"""
-    a = open(path, 'r')
-    b = a.read()
-    a.close()
-    return b
+    e = open(path, 'r', encoding="utf8")
+    f = e.read()
+    e.close()
+    return f
 
 langlist = [".py", ".rb"]
 a = loads(read_once('test.toml'))
@@ -22,22 +25,20 @@ for i in listdir(getcwd()):
 d = []
 
 for i, i2 in enumerate(flist):
-    b = []
+    args = [f"'{get_input_and_output(i2).input}'", "| hyperfine --runs 1 --export-json test.json --show-output"]
     config = a.get(i2, globalvals)
     for i3 in config["lang"]:
-        s = ""
         if i3 == "python":
-            s += "'python problems.py"
+            s = f"'python {i2}.py'"
         elif i3 == "pypy":
-            s += "'pypy problems.py"
+            s = f"'pypy {i2}.py"
         elif i3 == "rustpython":
-            s += "'rustpython problems.py"
+            s = f"'rustpython {i2}.py"
         elif i3 == "ruby":
-            s += "'ruby --enable-yjit problems.rb"
-        s += f" {i2}'"
-        b.append(s)
-    args = ['hyperfine --runs 1 --export-json test.json']
-    args.extend(b)
+            s = f"'ruby --enable-yjit {i2}.rb"
+        else:
+            raise ValueError("no support lang")
+        args.append(s)
     print(args)
     p = Popen(' '.join(args), shell=True)
     print(p.wait())
