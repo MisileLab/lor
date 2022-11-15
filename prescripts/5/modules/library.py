@@ -1,5 +1,5 @@
 class InputOutput:
-    def __init__(self, input, output):
+    def __init__(self, input: str, output: str):
         self.input = input
         self.output = output
 
@@ -32,6 +32,12 @@ def get_input_and_output(n: int):
         4589: InputOutput("3\n40 62 77\n88 62 77\n91 33 18", "Gnomes:\nOrdered\nUnordered\nOrdered"),
         2742: InputOutput("5", "5\n4\n3\n2\n1"),
         18409: InputOutput("6\nbitaro", "4"),
-        15552: InputOutput("5\n1 1\n12 34\n5 500\n40 60\n1000 1000", "2\n46\n505\n100\n2000")
+        15552: InputOutput("5\n1 1\n12 34\n5 500\n40 60\n1000 1000", "2\n46\n505\n100\n2000"),
+        15726: InputOutput("32 16 8", "64"),
+        15873: InputOutput("102", "12"),
+        18409: InputOutput("8\njoiyosen", "4"),
+        21598: InputOutput("2", "SciComLove\nSciComLove"),
+        23235: InputOutput("5 21 44 48 48 64\n6 8 19 22 49 53 62\n8 5 9 14 17 24 25 27 61\n4 13 21 28 35\n5 31 38 44 49 60\n0",
+        "Case 1: Sorting... done!\nCase 2: Sorting... done!\nCase 3: Sorting... done!\nCase 4: Sorting... done!\nCase 5: Sorting... done!")
     }
     return a[n]
