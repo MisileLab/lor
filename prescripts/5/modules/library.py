@@ -1,9 +1,11 @@
 class InputOutput:
-    def __init__(self, input, output):
+    def __init__(self, input: str, output: str):
         self.input = input
         self.output = output
 
-def get_input_and_output(n: int):
+def get_input_and_output(n: str | int) -> InputOutput:
+    if isinstance(n, str):
+        n = int(n)
     a = {
         8723: InputOutput("3 4 5", "1"),
         8558: InputOutput("4", "4"),
@@ -32,6 +34,13 @@ def get_input_and_output(n: int):
         4589: InputOutput("3\n40 62 77\n88 62 77\n91 33 18", "Gnomes:\nOrdered\nUnordered\nOrdered"),
         2742: InputOutput("5", "5\n4\n3\n2\n1"),
         18409: InputOutput("6\nbitaro", "4"),
-        15552: InputOutput("5\n1 1\n12 34\n5 500\n40 60\n1000 1000", "2\n46\n505\n100\n2000")
+        15552: InputOutput("5\n1 1\n12 34\n5 500\n40 60\n1000 1000", "2\n46\n505\n100\n2000"),
+        15726: InputOutput("32 16 8", "64"),
+        15873: InputOutput("102", "12"),
+        18409: InputOutput("8\njoiyosen", "4"),
+        21598: InputOutput("2", "SciComLove\nSciComLove"),
+        23235: InputOutput("5 21 44 48 48 64\n6 8 19 22 49 53 62\n8 5 9 14 17 24 25 27 61\n4 13 21 28 35\n5 31 38 44 49 60\n0",
+        "Case 1: Sorting... done!\nCase 2: Sorting... done!\nCase 3: Sorting... done!\nCase 4: Sorting... done!\nCase 5: Sorting... done!"),
+        4714: InputOutput("100.0\n12.0\n0.12\n120000.0\n-1.0", "Objects weighing 100.00 on Earth will weigh 16.70 on the moon.\nObjects weighing 12.00 on Earth will weigh 2.00 on the moon.\nObjects weighing 0.12 on Earth will weigh 0.02 on the moon.\nObjects weighing 120000.00 on Earth will weigh 20040.00 on the moon.")
     }
     return a[n]
