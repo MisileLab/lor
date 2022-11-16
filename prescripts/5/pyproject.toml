@@ -9,7 +9,6 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "3.11.0"
 tomli = "2.0.1"
-baekjoon = "1.0.8"
 requests = "2.28.1"
 baekjoonapi = {git = "https://github.com/MisileLab/baekjoonapi.git"}
 

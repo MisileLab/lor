@@ -1,15 +1,4 @@
 [[package]]
-name = "baekjoon"
-version = "1.0.8"
-description = "unofficial boj api"
-category = "main"
-optional = false
-python-versions = ">=3"
-
-[package.dependencies]
-bs4 = "*"
-
-[[package]]
 name = "baekjoonapi"
 version = "0.1.0"
 description = "BaekjoonAPI for Python"
@@ -27,7 +16,7 @@ requests = "2.28.1"
 type = "git"
 url = "https://github.com/MisileLab/baekjoonapi.git"
 reference = "HEAD"
-resolved_reference = "ed9a9b3767a474d2d362d9ab3ffd0ae95c502929"
+resolved_reference = "948bbb617a5e556a7902c6b89539def5e8c63f50"
 
 [[package]]
 name = "beautifulsoup4"
@@ -146,13 +135,9 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "3.11.0"
-content-hash = "83959fd01c3cc8f1fa38bdd99a06a703b9a13a6e0a6da2dd71f061ab72aa8021"
+content-hash = "31f08fd29cbbc1718512788f20412faa8c9a8a3f45773cf658588ee1ef991abd"
 
 [metadata.files]
-baekjoon = [
-    {file = "baekjoon-1.0.8-py3-none-any.whl", hash = "sha256:e7c7ae604c4ff9ec6ebe6bdfd27fe0eff4e84d4a1bd9a7497efc88a162e9e13b"},
-    {file = "baekjoon-1.0.8.tar.gz", hash = "sha256:f3e8522bb8dc26fcdd55abde76aa0297e4ecaad5e1fdea789c2512ef001e0f33"},
-]
 baekjoonapi = []
 beautifulsoup4 = [
     {file = "beautifulsoup4-4.11.1-py3-none-any.whl", hash = "sha256:58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30"},
