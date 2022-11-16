@@ -177,3 +177,6 @@ Cargo.lock
 *.pdb
 
 .vscode
+
+input.txt
+output.txt
