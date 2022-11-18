@@ -1,9 +1,9 @@
 from json import loads as jload
 from os import getcwd, listdir
 from subprocess import Popen
-from os import getcwd, listdir
 from bojapi import BaekjoonProb
 from tomli import loads
+from sys import argv
 
 runs = 1
 
@@ -25,6 +25,12 @@ for i in listdir(getcwd()):
             break
 
 flist = list(filter(lambda x: x.isnumeric(), flist))
+try:
+    argv[1]
+except (KeyError, ValueError):
+    pass
+else:
+    flist = [argv[1]]
 d = []
 g = []
 
