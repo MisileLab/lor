@@ -1,0 +1,3 @@
+[submodule "prescripts/MisileLib"]
+	path = prescripts/MisileLib
+	url = https://github.com/MisileLab/MisileLib.git
