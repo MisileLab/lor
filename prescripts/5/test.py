@@ -36,7 +36,7 @@ g = []
 
 for i, i2 in enumerate(flist):
     print(i2)
-    args = [f"hyperfine --runs {runs} --export-json test.json --output pipe", "", "< input.txt'"]
+    args = [f"hyperfine --runs {runs} --export-json test.json --output ./output.txt", "", "< input.txt'"]
     config = a.get(i2, globalvals)
     for i3 in config["lang"]:
         if i3 == "python":
@@ -51,14 +51,18 @@ for i, i2 in enumerate(flist):
             raise ValueError("no support lang")
         args[1] = s
     bjp = BaekjoonProb(i2)
-    print(args)
+    print(' '.join(args), end='')
     for inp, output in zip(bjp.sample_input, bjp.sample_output):
         with open("input.txt", "w", encoding="utf8") as file:
             file.write(inp.replace('\r', ''))
         p = Popen(' '.join(args), shell=True)
-        print(p.wait())
+        print(p.wait(), end='')
+        print(read_once('output.txt'), end='')
         for i3 in jload(read_once('test.json'))["results"]:
-            if i3['times'][0] > bjp.time_limit:
+            if read_once('output.txt') == output.replace('\r', '').removesuffix('\n'):
+                print(f"{i3['command']} does not match with {output} so failed")
+                g.append(i3['command'])
+            elif i3['times'][0] > bjp.time_limit:
                 print(f"{i3['command']} took {i3['times'][0]} seconds, which is more than {bjp.time_limit} seconds, so test failed")
                 d.append(i3['command'])
             else:
