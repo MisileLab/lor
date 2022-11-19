@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "validate"
+version = "0.1.0"
+description = "Some(repeat)"
+authors = ["MisileLaboratory"]
+license = "MisileLab License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.0"
+matplotlib = "3.6.2"
+numpy = "1.23.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
