@@ -51,15 +51,17 @@ for i, i2 in enumerate(flist):
             raise ValueError("no support lang")
         args[1] = s
     bjp = BaekjoonProb(i2)
-    print(' '.join(args), end='')
+    print(' '.join(args))
     for inp, output in zip(bjp.sample_input, bjp.sample_output):
         with open("input.txt", "w", encoding="utf8") as file:
             file.write(inp.replace('\r', ''))
         p = Popen(' '.join(args), shell=True)
-        print(p.wait(), end='')
-        print(read_once('output.txt'), end='')
+        print(p.wait())
+        outp = read_once('output.txt')
+        print(outp)
         for i3 in jload(read_once('test.json'))["results"]:
-            if read_once('output.txt') == output.replace('\r', '').removesuffix('\n'):
+            outpu = output.replace('\r', '')
+            if outp != outpu.removesuffix('\n') and outp != outpu:
                 print(f"{i3['command']} does not match with {output} so failed")
                 g.append(i3['command'])
             elif i3['times'][0] > bjp.time_limit:
