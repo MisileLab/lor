@@ -14,7 +14,7 @@ Minecraft paper/purpur downloader
 
 ## Prescript 5 - Some problems - Continue
 
-## Prescript 6 - Repeat Some(letter)
+## Prescript 6 - Repeat Some(letter) - Succeed
 lol
 
 ## Prescript 7 - Some(sleep) - Succeed
