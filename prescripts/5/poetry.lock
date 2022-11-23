@@ -16,7 +16,7 @@ requests = "2.28.1"
 type = "git"
 url = "https://github.com/MisileLab/baekjoonapi.git"
 reference = "HEAD"
-resolved_reference = "948bbb617a5e556a7902c6b89539def5e8c63f50"
+resolved_reference = "8467644b5e0f470fa3f3ddb4a8c410001d3d0274"
 
 [[package]]
 name = "beautifulsoup4"
