@@ -5,5 +5,5 @@ from json import loads
 a = loads(read_once("data.json"))
 
 pyplot.plot(range(len(a["data"])), a["data"], a["timedata"])
-pyplot.show()
+pyplot.savefig("mygraph.png")
 
