@@ -12,10 +12,14 @@ Minecraft paper/purpur downloader
 ## Prescript 4 - Make some program - Succeed
 ..that use real machine.
 
-## Prescript 5 - Some problems - Continue
+## Prescript 5 - Some problems - Succeed
 
 ## Prescript 6 - Repeat Some(letter) - Succeed
 lol
 
 ## Prescript 7 - Some(sleep) - Succeed
 yeah, sleepdata to graph
+
+## Prescript 8 - Linox
+Linox lol
+
