@@ -1,5 +1,1 @@
-# LOR
-
-지령이다. (This is Prescript)  
-[site](https://misilelab.github.io/lor)
-
+[moved](https://github.com/misilelab/h3)
